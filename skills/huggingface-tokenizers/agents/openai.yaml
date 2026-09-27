@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hugging Face Tokenizers"
+  short_description: "Hugging Face Tokenizers: scoped research workflow"
+  default_prompt: "Use $huggingface-tokenizers for my Hugging Face Tokenizers task, preserving the selected project, evidence, and resource limits."

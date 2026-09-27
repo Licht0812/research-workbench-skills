@@ -1,0 +1,4 @@
+interface:
+  display_name: "AutoGPT"
+  short_description: "AutoGPT: scoped research workflow"
+  default_prompt: "Use $autogpt for my AutoGPT task, preserving the selected project, evidence, and resource limits."

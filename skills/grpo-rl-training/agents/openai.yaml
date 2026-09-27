@@ -1,0 +1,4 @@
+interface:
+  display_name: "GRPO RL Training"
+  short_description: "GRPO RL Training: scoped research workflow"
+  default_prompt: "Use $grpo-rl-training for my GRPO RL Training task, preserving the selected project, evidence, and resource limits."

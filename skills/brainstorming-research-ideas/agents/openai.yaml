@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brainstorming Research Ideas"
+  short_description: "Develop research directions and a feasible first probe"
+  default_prompt: "Use $brainstorming-research-ideas to develop and compare research directions within my constraints."

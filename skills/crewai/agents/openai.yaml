@@ -1,0 +1,4 @@
+interface:
+  display_name: "CrewAI"
+  short_description: "CrewAI: scoped research workflow"
+  default_prompt: "Use $crewai for my CrewAI task, preserving the selected project, evidence, and resource limits."

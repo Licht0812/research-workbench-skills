@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ray Train"
+  short_description: "Ray Train: scoped research workflow"
+  default_prompt: "Use $ray-train for my Ray Train task, preserving the selected project, evidence, and resource limits."

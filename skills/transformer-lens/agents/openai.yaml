@@ -1,0 +1,4 @@
+interface:
+  display_name: "TransformerLens"
+  short_description: "TransformerLens: scoped research workflow"
+  default_prompt: "Use $transformer-lens for my TransformerLens task, preserving the selected project, evidence, and resource limits."

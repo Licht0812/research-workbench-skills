@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cosmos-Policy"
+  short_description: "Cosmos-Policy: scoped research workflow"
+  default_prompt: "Use $cosmos-policy for my Cosmos-Policy task, preserving the selected project, evidence, and resource limits."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "DeepSpeed"
+  short_description: "DeepSpeed: scoped research workflow"
+  default_prompt: "Use $deepspeed for my DeepSpeed task, preserving the selected project, evidence, and resource limits."

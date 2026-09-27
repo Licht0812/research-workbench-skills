@@ -1,0 +1,4 @@
+interface:
+  display_name: "SwanLab"
+  short_description: "SwanLab: scoped research workflow"
+  default_prompt: "Use $swanlab for my SwanLab task, preserving the selected project, evidence, and resource limits."

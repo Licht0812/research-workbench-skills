@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenPI"
+  short_description: "OpenPI: scoped research workflow"
+  default_prompt: "Use $openpi for my OpenPI task, preserving the selected project, evidence, and resource limits."

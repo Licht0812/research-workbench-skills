@@ -1,0 +1,4 @@
+interface:
+  display_name: "NeMo Curator"
+  short_description: "NeMo Curator: scoped research workflow"
+  default_prompt: "Use $nemo-curator for my NeMo Curator task, preserving the selected project, evidence, and resource limits."

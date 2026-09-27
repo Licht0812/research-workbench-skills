@@ -1,0 +1,4 @@
+interface:
+  display_name: "LLaVA"
+  short_description: "LLaVA: scoped research workflow"
+  default_prompt: "Use $llava for my LLaVA task, preserving the selected project, evidence, and resource limits."

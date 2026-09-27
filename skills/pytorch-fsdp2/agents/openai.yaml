@@ -1,0 +1,4 @@
+interface:
+  display_name: "PyTorch FSDP2"
+  short_description: "PyTorch FSDP2: scoped research workflow"
+  default_prompt: "Use $pytorch-fsdp2 for my PyTorch FSDP2 task, preserving the selected project, evidence, and resource limits."

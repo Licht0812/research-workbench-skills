@@ -1,0 +1,4 @@
+interface:
+  display_name: "Long Context"
+  short_description: "Long Context: scoped research workflow"
+  default_prompt: "Use $long-context for my Long Context task, preserving the selected project, evidence, and resource limits."

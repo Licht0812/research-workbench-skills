@@ -1,0 +1,4 @@
+interface:
+  display_name: "RWKV"
+  short_description: "RWKV: scoped research workflow"
+  default_prompt: "Use $rwkv for my RWKV task, preserving the selected project, evidence, and resource limits."

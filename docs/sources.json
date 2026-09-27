@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-09-27",
+  "upstream": {
+    "repository": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+    "license": "MIT",
+    "files": [
+      {
+        "path": "21-research-ideation/creative-thinking-for-research/SKILL.md",
+        "git_blob_sha": "a76b01c979bcaf6fd77e97826ac14444547c809d",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/21-research-ideation/creative-thinking-for-research/SKILL.md"
+      },
+      {
+        "path": "21-research-ideation/brainstorming-research-ideas/SKILL.md",
+        "git_blob_sha": "f5427a507c009fe0a91e51e213b340987334adb4",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/21-research-ideation/brainstorming-research-ideas/SKILL.md"
+      },
+      {
+        "path": "LICENSE",
+        "git_blob_sha": "943d5753a5f02f9ef352ff8a1706f167004d6e6d",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/LICENSE"
+      },
+      {
+        "path": "01-model-architecture/nanogpt/SKILL.md",
+        "git_blob_sha": "3b77abf9a8f7408f1b5db7bcbeb31a187f6ac148",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/01-model-architecture/nanogpt/SKILL.md"
+      },
+      {
+        "path": "01-model-architecture/rwkv/SKILL.md",
+        "git_blob_sha": "d8f00673a85979d6aba406003deb3f3b5c993941",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/01-model-architecture/rwkv/SKILL.md"
+      },
+      {
+        "path": "01-model-architecture/torchtitan/SKILL.md",
+        "git_blob_sha": "7b08ed5366cf7444fd08a6484cc791797d4844d2",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/01-model-architecture/torchtitan/SKILL.md"
+      },
+      {
+        "path": "02-tokenization/huggingface-tokenizers/SKILL.md",
+        "git_blob_sha": "a7f399f7a51af6bc9d2a4669f5a4845d853e466d",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/02-tokenization/huggingface-tokenizers/SKILL.md"
+      },
+      {
+        "path": "04-mechanistic-interpretability/pyvene/SKILL.md",
+        "git_blob_sha": "c62d2530552059fb908f2ebde294c65297695706",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/04-mechanistic-interpretability/pyvene/SKILL.md"
+      },
+      {
+        "path": "04-mechanistic-interpretability/transformer-lens/SKILL.md",
+        "git_blob_sha": "0575eb2733387fbbb186fac7c8fd477690997927",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/04-mechanistic-interpretability/transformer-lens/SKILL.md"
+      },
+      {
+        "path": "05-data-processing/nemo-curator/SKILL.md",
+        "git_blob_sha": "f07d7c9530ec50d7e40d60cd9df21e4cf8200f1c",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/05-data-processing/nemo-curator/SKILL.md"
+      },
+      {
+        "path": "05-data-processing/ray-data/SKILL.md",
+        "git_blob_sha": "50fc4ab0a76f3792c1c54f1195c1deb8cbc8cda8",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/05-data-processing/ray-data/SKILL.md"
+      },
+      {
+        "path": "06-post-training/grpo-rl-training/SKILL.md",
+        "git_blob_sha": "11873ce71ed933ecb62754122fac29ea12f1a789",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/06-post-training/grpo-rl-training/SKILL.md"
+      },
+      {
+        "path": "06-post-training/openrlhf/SKILL.md",
+        "git_blob_sha": "a82ed34ad3993a4dc74635c8985754dffe47813e",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/06-post-training/openrlhf/SKILL.md"
+      },
+      {
+        "path": "06-post-training/simpo/SKILL.md",
+        "git_blob_sha": "6a5e0fec4b1788468efbf864a9070f7944b55070",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/06-post-training/simpo/SKILL.md"
+      },
+      {
+        "path": "06-post-training/trl-fine-tuning/SKILL.md",
+        "git_blob_sha": "db36dd8c05b82dfd520a837dfaaf811499e3256c",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/06-post-training/trl-fine-tuning/SKILL.md"
+      },
+      {
+        "path": "06-post-training/verl/SKILL.md",
+        "git_blob_sha": "f42820c1acd8e92329410d63b0f1ae4d14592268",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/06-post-training/verl/SKILL.md"
+      },
+      {
+        "path": "08-distributed-training/accelerate/SKILL.md",
+        "git_blob_sha": "f44898099cb7628133d68ff6cd7fca380bcbab77",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/accelerate/SKILL.md"
+      },
+      {
+        "path": "08-distributed-training/deepspeed/SKILL.md",
+        "git_blob_sha": "cf35db7e735118e2bf26269600dba6bdaa0cf4fd",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/deepspeed/SKILL.md"
+      },
+      {
+        "path": "08-distributed-training/pytorch-fsdp2/SKILL.md",
+        "git_blob_sha": "30d159316c8845e8d2f0bdf617959324a97227b3",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/pytorch-fsdp2/SKILL.md"
+      },
+      {
+        "path": "08-distributed-training/pytorch-lightning/SKILL.md",
+        "git_blob_sha": "042facd430b317aea0c11cc99da8c4d104921e59",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/pytorch-lightning/SKILL.md"
+      },
+      {
+        "path": "08-distributed-training/ray-train/SKILL.md",
+        "git_blob_sha": "8219595547113da2c4d074f6c1a356324e73ae27",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/ray-train/SKILL.md"
+      },
+      {
+        "path": "10-optimization/flash-attention/SKILL.md",
+        "git_blob_sha": "b8a7245efc973e81e7d932e0aa848f95fdc80ec2",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/10-optimization/flash-attention/SKILL.md"
+      },
+      {
+        "path": "11-evaluation/bigcode-evaluation-harness/SKILL.md",
+        "git_blob_sha": "8d231073a90e47e78d6f933c11206285bb9dfb3a",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/11-evaluation/bigcode-evaluation-harness/SKILL.md"
+      },
+      {
+        "path": "13-mlops/swanlab/SKILL.md",
+        "git_blob_sha": "5b85a385bedff40ba12ab1d3591198d3eeb6c843",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/13-mlops/swanlab/SKILL.md"
+      },
+      {
+        "path": "13-mlops/weights-and-biases/SKILL.md",
+        "git_blob_sha": "81d2e335f1ba6dc41f3a8f688310dbf1972d8dc4",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/13-mlops/weights-and-biases/SKILL.md"
+      },
+      {
+        "path": "14-agents/a-evolve/SKILL.md",
+        "git_blob_sha": "3102bcbf05752d9359081ccf14af6f34ca71a0d8",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/14-agents/a-evolve/SKILL.md"
+      },
+      {
+        "path": "14-agents/autogpt/SKILL.md",
+        "git_blob_sha": "8d811a5dd9ddbeaafa7a954646b3a046096aa2d6",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/14-agents/autogpt/SKILL.md"
+      },
+      {
+        "path": "14-agents/crewai/SKILL.md",
+        "git_blob_sha": "cf27744ddd9f60faee2670d6a47a3a676560f5ac",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/14-agents/crewai/SKILL.md"
+      },
+      {
+        "path": "14-agents/langchain/SKILL.md",
+        "git_blob_sha": "cf667923a29c7d4d03af2ddea8a916935bb9cea8",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/14-agents/langchain/SKILL.md"
+      },
+      {
+        "path": "14-agents/llamaindex/SKILL.md",
+        "git_blob_sha": "a32d8a067d1ecfe3fa64ee476aec85ab0b5b6c53",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/14-agents/llamaindex/SKILL.md"
+      },
+      {
+        "path": "15-rag/faiss/SKILL.md",
+        "git_blob_sha": "a9ead285182767a0faba34f7b937362d1cdb93e8",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/15-rag/faiss/SKILL.md"
+      },
+      {
+        "path": "15-rag/qdrant/SKILL.md",
+        "git_blob_sha": "a2427142bde8fdd21aa9a9aa4466d925ffdae000",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/15-rag/qdrant/SKILL.md"
+      },
+      {
+        "path": "17-observability/langsmith/SKILL.md",
+        "git_blob_sha": "68db9e4dbb4c1e23dd9abf002cceb0575d9d1254",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/17-observability/langsmith/SKILL.md"
+      },
+      {
+        "path": "17-observability/phoenix/SKILL.md",
+        "git_blob_sha": "30f7d3de91339d42529a52bb309b982addca510a",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/17-observability/phoenix/SKILL.md"
+      },
+      {
+        "path": "18-multimodal/blip-2/SKILL.md",
+        "git_blob_sha": "749b17c2656c538e79e277dc0aad886e5e03c448",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/18-multimodal/blip-2/SKILL.md"
+      },
+      {
+        "path": "18-multimodal/clip/SKILL.md",
+        "git_blob_sha": "e5282aeb047785130b98f0b8398ec70d2d0ad10c",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/18-multimodal/clip/SKILL.md"
+      },
+      {
+        "path": "18-multimodal/cosmos-policy/SKILL.md",
+        "git_blob_sha": "4f79afb30fc6d24c2991e1b11d9206c2216b670b",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/18-multimodal/cosmos-policy/SKILL.md"
+      },
+      {
+        "path": "18-multimodal/llava/SKILL.md",
+        "git_blob_sha": "f44b2ca6ea45daec60fbb77975eb2ae5ba10f89e",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/18-multimodal/llava/SKILL.md"
+      },
+      {
+        "path": "18-multimodal/openpi/SKILL.md",
+        "git_blob_sha": "705328851021ff3ba23fb32b0bd6fca54b560ef7",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/18-multimodal/openpi/SKILL.md"
+      },
+      {
+        "path": "18-multimodal/openvla-oft/SKILL.md",
+        "git_blob_sha": "508f8e7bf03179125dd1f51f221508db0dd2d482",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/18-multimodal/openvla-oft/SKILL.md"
+      },
+      {
+        "path": "19-emerging-techniques/knowledge-distillation/SKILL.md",
+        "git_blob_sha": "6817e5a1c46efcd387d726947519a94fe618f561",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/19-emerging-techniques/knowledge-distillation/SKILL.md"
+      },
+      {
+        "path": "19-emerging-techniques/long-context/SKILL.md",
+        "git_blob_sha": "0a3ec677fb5838cdf92aad51fd1ed1c2e833cc57",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/19-emerging-techniques/long-context/SKILL.md"
+      },
+      {
+        "path": "19-emerging-techniques/moe-training/SKILL.md",
+        "git_blob_sha": "e7ebe8b6c0025be80a3906b61021a6f5378c91c7",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/19-emerging-techniques/moe-training/SKILL.md"
+      },
+      {
+        "path": "20-ml-paper-writing/academic-plotting/SKILL.md",
+        "git_blob_sha": "ee4ff26d6db646baa106c2d516dc1451e9bb1a4d",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/20-ml-paper-writing/academic-plotting/SKILL.md"
+      },
+      {
+        "path": "20-ml-paper-writing/ml-paper-writing/SKILL.md",
+        "git_blob_sha": "2090941c1d1e6b619e5ab32147741546c8dbdb09",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/20-ml-paper-writing/ml-paper-writing/SKILL.md"
+      },
+      {
+        "path": "20-ml-paper-writing/systems-paper-writing/SKILL.md",
+        "git_blob_sha": "c7607cfa79cd4114f0f2df071bcc4f9e24ef6b4d",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/20-ml-paper-writing/systems-paper-writing/SKILL.md"
+      }
+    ],
+    "id": "orchestra",
+    "copyright_notice": "Copyright (c) 2025 Claude AI Research Skills Contributors"
+  },
+  "official_guidance": [
+    {
+      "topic": "Current model family and prompting behavior",
+      "url": "https://developers.openai.com/api/docs/guides/latest-model",
+      "model_family_at_review": "GPT-6",
+      "retrieval": "Official HTML page fetched; local Markdown resolver returned HTTP 403."
+    },
+    {
+      "topic": "Astra model identity",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "retrieval": "Official HTML page fetched."
+    },
+    {
+      "topic": "Skill format and discovery",
+      "url": "https://learn.chatgpt.com/docs/build-skills",
+      "retrieval": "Official HTML page fetched via developers.openai.com/codex/skills redirect."
+    },
+    {
+      "topic": "Current skill packaging guidance",
+      "url": "https://developers.openai.com/plugins/build/skills",
+      "retrieval": "Official page opened on 2026-09-27."
+    },
+    {
+      "topic": "Compact skills for GPT-6 Astra",
+      "url": "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra",
+      "retrieval": "Official page opened on 2026-09-27."
+    },
+    {
+      "topic": "Conference-specific template and figure accessibility",
+      "url": "https://icml.cc/Conferences/2026/AuthorInstructions",
+      "retrieval": "Official author instructions opened on 2026-09-27."
+    },
+    {
+      "topic": "Conference-specific template authority",
+      "url": "https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines",
+      "retrieval": "Official author guidelines opened on 2026-09-27."
+    },
+    {
+      "topic": "Context-dependent non-text contrast",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+      "retrieval": "Official W3C guidance opened on 2026-09-27."
+    },
+    {
+      "topic": "Agent Skills format specification",
+      "url": "https://agentskills.io/specification",
+      "retrieval": "Primary page opened on 2026-09-27 during source normalization."
+    },
+    {
+      "topic": "OpenAI skill metadata validation diagnostics",
+      "url": "https://developers.openai.com/plugins/deploy/submission-errors",
+      "retrieval": "Primary page opened on 2026-09-27 during source normalization."
+    },
+    {
+      "topic": "Repository README conventions",
+      "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+      "retrieval": "Primary page opened on 2026-09-27 during source normalization."
+    },
+    {
+      "topic": "Repository license placement",
+      "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository",
+      "retrieval": "Primary page opened on 2026-09-27 during source normalization."
+    },
+    {
+      "topic": "Recommended community files",
+      "url": "https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/about-community-profiles-for-public-repositories",
+      "retrieval": "Primary page opened on 2026-09-27 during source normalization."
+    }
+  ],
+  "tooling_sources": [
+    {
+      "component": "actions/checkout",
+      "version": "v7.0.1",
+      "url": "https://github.com/actions/checkout/releases/tag/v7.0.1"
+    },
+    {
+      "component": "actions/setup-python",
+      "version": "v7.0.0",
+      "url": "https://github.com/actions/setup-python/releases/tag/v7.0.0"
+    }
+  ],
+  "validation_scope": "46 independent skill folders. Public-format checks are separate from repository distribution conventions. Optional case-schema checks do not run a model. Selection and Python palette tools are tested; no hosted publication, GPU runtime, or model behavior is implied.",
+  "additional_upstreams": {
+    "easyplot": {
+      "repository": "https://github.com/Rimagination/easyplot",
+      "commit": "b54bbe4f9158a5d4bf5b532689ed34f66231ab35",
+      "license": "MIT for code/instructions; palette data retain source-specific terms",
+      "copyright_notice": "Copyright (c) 2026 Rimagination",
+      "files": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "0b25daa8ac82821d70b92f16bb54f3123918b375",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/LICENSE"
+        },
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "308bb853deec79862af641eb714ab13b1b7d78c0",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/SKILL.md"
+        },
+        {
+          "path": "assets/colorbrewer-LICENSE.txt",
+          "git_blob_sha": "b4841f90a05acb8231e0e9c78b332de91bcef194",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/assets/colorbrewer-LICENSE.txt"
+        },
+        {
+          "path": "assets/palette-licenses/BSD-3-Clause-template.txt",
+          "git_blob_sha": "ea890afbc70c94011b765722a95e2c8c7d4f1233",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/assets/palette-licenses/BSD-3-Clause-template.txt"
+        },
+        {
+          "path": "assets/palette-licenses/NOTICES.md",
+          "git_blob_sha": "b6708542ad8d89ba02beda1d22342668285326c2",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/assets/palette-licenses/NOTICES.md"
+        },
+        {
+          "path": "assets/palette-licenses/R-MIT-template.txt",
+          "git_blob_sha": "02ea33600b1c4cd5196dd4629a35064224e11179",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/assets/palette-licenses/R-MIT-template.txt"
+        },
+        {
+          "path": "assets/palette-licenses/cmocean-MIT.txt",
+          "git_blob_sha": "c22ec09c1a88c65d68004826484c0c8592c2a268",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/assets/palette-licenses/cmocean-MIT.txt"
+        },
+        {
+          "path": "assets/palette-licenses/matplotlib-LICENSE.txt",
+          "git_blob_sha": "4c3ec2d3446730e125759e8b6f57735a24b79d94",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/assets/palette-licenses/matplotlib-LICENSE.txt"
+        },
+        {
+          "path": "assets/palette-licenses/scientific-colour-maps-MIT-extracted.txt",
+          "git_blob_sha": "7d6fc07bec5196634ed3e90b7abc3fddc5d7f626",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/assets/palette-licenses/scientific-colour-maps-MIT-extracted.txt"
+        },
+        {
+          "path": "assets/palette-licenses/tol-author-notice.txt",
+          "git_blob_sha": "963b413fa7f20c4630b20628a12a48e9cd5cb115",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/assets/palette-licenses/tol-author-notice.txt"
+        },
+        {
+          "path": "assets/palette-licenses/viridisLite-MIT-copyright.txt",
+          "git_blob_sha": "43f852e40db5a56c5ed148f176cb5eb1f329f63b",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/assets/palette-licenses/viridisLite-MIT-copyright.txt"
+        },
+        {
+          "path": "assets/palettes.json",
+          "git_blob_sha": "114010ad7b2cdacf0592c921bad5a85749448e93",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/assets/palettes.json"
+        },
+        {
+          "path": "references/palette-library.md",
+          "git_blob_sha": "2efc966254b593c3fdcdcfad24e114b36a3d0c58",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/references/palette-library.md"
+        },
+        {
+          "path": "scripts/easyplot_palette_audit.py",
+          "git_blob_sha": "58016ca482753099148574ba88d0191a49a1e4f4",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/scripts/easyplot_palette_audit.py"
+        },
+        {
+          "path": "scripts/easyplot_palettes.py",
+          "git_blob_sha": "d7eb5152418467e942119f4ad8898fce35adc5eb",
+          "url": "https://github.com/Rimagination/easyplot/blob/b54bbe4f9158a5d4bf5b532689ed34f66231ab35/scripts/easyplot_palettes.py"
+        }
+      ],
+      "included_scope": "205 unchanged palette records and Python reader; new conference workflow and audit/gallery tools",
+      "palette_provenance": "skills/ccf-conference-colors/assets/provenance.json"
+    }
+  }
+}

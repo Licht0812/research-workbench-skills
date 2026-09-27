@@ -1,0 +1,4 @@
+interface:
+  display_name: "Weights & Biases"
+  short_description: "Weights & Biases: scoped research workflow"
+  default_prompt: "Use $weights-and-biases for my Weights & Biases task, preserving the selected project, evidence, and resource limits."

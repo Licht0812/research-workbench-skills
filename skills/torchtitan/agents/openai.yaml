@@ -1,0 +1,4 @@
+interface:
+  display_name: "TorchTitan"
+  short_description: "TorchTitan: scoped research workflow"
+  default_prompt: "Use $torchtitan for my TorchTitan task, preserving the selected project, evidence, and resource limits."

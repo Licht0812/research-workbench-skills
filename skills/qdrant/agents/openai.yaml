@@ -1,0 +1,4 @@
+interface:
+  display_name: "Qdrant"
+  short_description: "Qdrant: scoped research workflow"
+  default_prompt: "Use $qdrant for my Qdrant task, preserving the selected project, evidence, and resource limits."

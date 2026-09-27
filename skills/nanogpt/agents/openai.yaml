@@ -1,0 +1,4 @@
+interface:
+  display_name: "nanoGPT"
+  short_description: "nanoGPT: scoped research workflow"
+  default_prompt: "Use $nanogpt for my nanoGPT task, preserving the selected project, evidence, and resource limits."

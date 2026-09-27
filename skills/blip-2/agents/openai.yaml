@@ -1,0 +1,4 @@
+interface:
+  display_name: "BLIP-2"
+  short_description: "BLIP-2: scoped research workflow"
+  default_prompt: "Use $blip-2 for my BLIP-2 task, preserving the selected project, evidence, and resource limits."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "TRL"
+  short_description: "TRL: scoped research workflow"
+  default_prompt: "Use $trl-fine-tuning for my TRL task, preserving the selected project, evidence, and resource limits."

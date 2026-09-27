@@ -1,0 +1,4 @@
+interface:
+  display_name: "CCF Conference Colors"
+  short_description: "Scientific palettes and color checks for CCF papers"
+  default_prompt: "Use $ccf-conference-colors to choose or audit a consistent palette for my conference figures, preserving data and the existing plotting source."

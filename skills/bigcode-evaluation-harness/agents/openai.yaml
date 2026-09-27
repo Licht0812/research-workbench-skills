@@ -1,0 +1,4 @@
+interface:
+  display_name: "BigCode Evaluation Harness"
+  short_description: "BigCode Evaluation Harness: scoped research workflow"
+  default_prompt: "Use $bigcode-evaluation-harness for my BigCode Evaluation Harness task, preserving the selected project, evidence, and resource limits."

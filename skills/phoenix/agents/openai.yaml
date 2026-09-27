@@ -1,0 +1,4 @@
+interface:
+  display_name: "Phoenix"
+  short_description: "Phoenix: scoped research workflow"
+  default_prompt: "Use $phoenix for my Phoenix task, preserving the selected project, evidence, and resource limits."

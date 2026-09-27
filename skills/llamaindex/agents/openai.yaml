@@ -1,0 +1,4 @@
+interface:
+  display_name: "LlamaIndex"
+  short_description: "LlamaIndex: scoped research workflow"
+  default_prompt: "Use $llamaindex for my LlamaIndex task, preserving the selected project, evidence, and resource limits."

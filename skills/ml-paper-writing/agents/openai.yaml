@@ -1,0 +1,4 @@
+interface:
+  display_name: "ML Paper Writing"
+  short_description: "ML Paper Writing: scoped research workflow"
+  default_prompt: "Use $ml-paper-writing for my ML Paper Writing task, preserving the selected project, evidence, and resource limits."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "LangSmith"
+  short_description: "LangSmith: scoped research workflow"
+  default_prompt: "Use $langsmith for my LangSmith task, preserving the selected project, evidence, and resource limits."

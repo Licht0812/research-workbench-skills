@@ -1,0 +1,25 @@
+name: Validate skills
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.11'
+      - name: Install validation dependency
+        run: python -m pip install -r requirements-dev.txt
+      - name: Validate standalone packages and repository links
+        run: python scripts/validate.py
+      - name: Validate optional evaluation definitions
+        run: python scripts/validate_evals.py
+      - name: Test tools, packaging, and validation
+        run: python -m unittest discover -s tests -v

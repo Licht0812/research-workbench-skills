@@ -1,0 +1,4 @@
+interface:
+  display_name: "Systems Paper Writing"
+  short_description: "Systems Paper Writing: scoped research workflow"
+  default_prompt: "Use $systems-paper-writing for my Systems Paper Writing task, preserving the selected project, evidence, and resource limits."

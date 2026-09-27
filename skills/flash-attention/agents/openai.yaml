@@ -1,0 +1,4 @@
+interface:
+  display_name: "FlashAttention"
+  short_description: "FlashAttention: scoped research workflow"
+  default_prompt: "Use $flash-attention for my FlashAttention task, preserving the selected project, evidence, and resource limits."

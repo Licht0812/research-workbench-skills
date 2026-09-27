@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenVLA-OFT"
+  short_description: "OpenVLA-OFT: scoped research workflow"
+  default_prompt: "Use $openvla-oft for my OpenVLA-OFT task, preserving the selected project, evidence, and resource limits."

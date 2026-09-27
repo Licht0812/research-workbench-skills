@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ray Data"
+  short_description: "Ray Data: scoped research workflow"
+  default_prompt: "Use $ray-data for my Ray Data task, preserving the selected project, evidence, and resource limits."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Accelerate"
+  short_description: "Accelerate: scoped research workflow"
+  default_prompt: "Use $accelerate for my Accelerate task, preserving the selected project, evidence, and resource limits."

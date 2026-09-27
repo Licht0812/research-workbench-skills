@@ -1,0 +1,4 @@
+interface:
+  display_name: "pyvene"
+  short_description: "pyvene: scoped research workflow"
+  default_prompt: "Use $pyvene for my pyvene task, preserving the selected project, evidence, and resource limits."

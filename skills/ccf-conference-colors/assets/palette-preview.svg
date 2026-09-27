@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="728" viewBox="0 0 1120 728" role="img" aria-labelledby="title desc">
+<title id="title">CCF Conference Colors: six illustrative palette choices</title>
+<desc id="desc">Categorical, sequential, diverging and cyclic swatches with equal-luminance grayscale previews. This is a reference, not experimental data or CVD simulation.</desc>
+<rect width="1120" height="728" fill="#FAFBFC"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222222">
+<text x="44" y="42" font-size="12" letter-spacing="2" fill="#4477AA">RESEARCH WORKBENCH SKILLS</text>
+<text x="44" y="88" font-size="32" font-weight="700">CCF Conference Colors</text>
+<text x="44" y="116" font-size="14" fill="#565E69">205 palettes · 6 source families · stable identities across figures</text>
+<text x="432" y="155" font-size="11" fill="#565E69">COLOR SAMPLES</text>
+<text x="838" y="155" font-size="11" fill="#565E69">GRAYSCALE SCREEN</text>
+<text x="44" y="196" font-size="16" font-weight="700">tol.bright</text>
+<text x="44" y="217" font-size="11" fill="#565E69">METHODS / nominal categories</text>
+<rect x="432.000" y="181" width="51.724" height="42" fill="#4477AA"/>
+<rect x="483.714" y="181" width="51.724" height="42" fill="#EE6677"/>
+<rect x="535.429" y="181" width="51.724" height="42" fill="#228833"/>
+<rect x="587.143" y="181" width="51.724" height="42" fill="#CCBB44"/>
+<rect x="638.857" y="181" width="51.724" height="42" fill="#66CCEE"/>
+<rect x="690.571" y="181" width="51.724" height="42" fill="#AA3377"/>
+<rect x="742.286" y="181" width="51.724" height="42" fill="#BBBBBB"/>
+<rect x="838.000" y="181" width="34.010" height="42" fill="#747474"/>
+<rect x="872.000" y="181" width="34.010" height="42" fill="#939393"/>
+<rect x="906.000" y="181" width="34.010" height="42" fill="#767676"/>
+<rect x="940.000" y="181" width="34.010" height="42" fill="#B9B9B9"/>
+<rect x="974.000" y="181" width="34.010" height="42" fill="#BFBFBF"/>
+<rect x="1008.000" y="181" width="34.010" height="42" fill="#626262"/>
+<rect x="1042.000" y="181" width="34.010" height="42" fill="#BBBBBB"/>
+<text x="44" y="272" font-size="16" font-weight="700">tol.muted</text>
+<text x="44" y="293" font-size="11" fill="#565E69">COMPARISONS / nominal categories</text>
+<rect x="432.000" y="257" width="40.232" height="42" fill="#CC6677"/>
+<rect x="472.222" y="257" width="40.232" height="42" fill="#332288"/>
+<rect x="512.444" y="257" width="40.232" height="42" fill="#DDCC77"/>
+<rect x="552.667" y="257" width="40.232" height="42" fill="#117733"/>
+<rect x="592.889" y="257" width="40.232" height="42" fill="#88CCEE"/>
+<rect x="633.111" y="257" width="40.232" height="42" fill="#882255"/>
+<rect x="673.333" y="257" width="40.232" height="42" fill="#44AA99"/>
+<rect x="713.556" y="257" width="40.232" height="42" fill="#999933"/>
+<rect x="753.778" y="257" width="40.232" height="42" fill="#AA4499"/>
+<rect x="838.000" y="257" width="26.454" height="42" fill="#868686"/>
+<rect x="864.444" y="257" width="26.454" height="42" fill="#363636"/>
+<rect x="890.889" y="257" width="26.454" height="42" fill="#CBCBCB"/>
+<rect x="917.333" y="257" width="26.454" height="42" fill="#676767"/>
+<rect x="943.778" y="257" width="26.454" height="42" fill="#C3C3C3"/>
+<rect x="970.222" y="257" width="26.454" height="42" fill="#4B4B4B"/>
+<rect x="996.667" y="257" width="26.454" height="42" fill="#9A9A9A"/>
+<rect x="1023.111" y="257" width="26.454" height="42" fill="#949494"/>
+<rect x="1049.556" y="257" width="26.454" height="42" fill="#6C6C6C"/>
+<text x="44" y="348" font-size="16" font-weight="700">viridis.viridis</text>
+<text x="44" y="369" font-size="11" fill="#565E69">MAGNITUDE / ordered values</text>
+<rect x="432.000" y="333" width="22.635" height="42" fill="#440154"/>
+<rect x="454.625" y="333" width="22.635" height="42" fill="#481A6C"/>
+<rect x="477.250" y="333" width="22.635" height="42" fill="#472F7D"/>
+<rect x="499.875" y="333" width="22.635" height="42" fill="#414487"/>
+<rect x="522.500" y="333" width="22.635" height="42" fill="#39568C"/>
+<rect x="545.125" y="333" width="22.635" height="42" fill="#31688E"/>
+<rect x="567.750" y="333" width="22.635" height="42" fill="#2A788E"/>
+<rect x="590.375" y="333" width="22.635" height="42" fill="#23888E"/>
+<rect x="613.000" y="333" width="22.635" height="42" fill="#1F988B"/>
+<rect x="635.625" y="333" width="22.635" height="42" fill="#22A884"/>
+<rect x="658.250" y="333" width="22.635" height="42" fill="#35B779"/>
+<rect x="680.875" y="333" width="22.635" height="42" fill="#54C568"/>
+<rect x="703.500" y="333" width="22.635" height="42" fill="#7AD151"/>
+<rect x="726.125" y="333" width="22.635" height="42" fill="#A5DB36"/>
+<rect x="748.750" y="333" width="22.635" height="42" fill="#D2E21B"/>
+<rect x="771.375" y="333" width="22.635" height="42" fill="#FDE725"/>
+<rect x="838.000" y="333" width="14.885" height="42" fill="#252525"/>
+<rect x="852.875" y="333" width="14.885" height="42" fill="#323232"/>
+<rect x="867.750" y="333" width="14.885" height="42" fill="#3E3E3E"/>
+<rect x="882.625" y="333" width="14.885" height="42" fill="#4B4B4B"/>
+<rect x="897.500" y="333" width="14.885" height="42" fill="#575757"/>
+<rect x="912.375" y="333" width="14.885" height="42" fill="#636363"/>
+<rect x="927.250" y="333" width="14.885" height="42" fill="#6F6F6F"/>
+<rect x="942.125" y="333" width="14.885" height="42" fill="#7B7B7B"/>
+<rect x="957.000" y="333" width="14.885" height="42" fill="#888888"/>
+<rect x="971.875" y="333" width="14.885" height="42" fill="#959595"/>
+<rect x="986.750" y="333" width="14.885" height="42" fill="#A2A2A2"/>
+<rect x="1001.625" y="333" width="14.885" height="42" fill="#AFAFAF"/>
+<rect x="1016.500" y="333" width="14.885" height="42" fill="#BCBCBC"/>
+<rect x="1031.375" y="333" width="14.885" height="42" fill="#CACACA"/>
+<rect x="1046.250" y="333" width="14.885" height="42" fill="#D7D7D7"/>
+<rect x="1061.125" y="333" width="14.885" height="42" fill="#E5E5E5"/>
+<text x="44" y="424" font-size="16" font-weight="700">scico.batlow</text>
+<text x="44" y="445" font-size="11" fill="#565E69">MAGNITUDE / ordered values</text>
+<rect x="432.000" y="409" width="22.635" height="42" fill="#011959"/>
+<rect x="454.625" y="409" width="22.635" height="42" fill="#0D325E"/>
+<rect x="477.250" y="409" width="22.635" height="42" fill="#124561"/>
+<rect x="499.875" y="409" width="22.635" height="42" fill="#185562"/>
+<rect x="522.500" y="409" width="22.635" height="42" fill="#26635F"/>
+<rect x="545.125" y="409" width="22.635" height="42" fill="#3C6D56"/>
+<rect x="567.750" y="409" width="22.635" height="42" fill="#577647"/>
+<rect x="590.375" y="409" width="22.635" height="42" fill="#737E38"/>
+<rect x="613.000" y="409" width="22.635" height="42" fill="#91862D"/>
+<rect x="635.625" y="409" width="22.635" height="42" fill="#B38E2F"/>
+<rect x="658.250" y="409" width="22.635" height="42" fill="#D29343"/>
+<rect x="680.875" y="409" width="22.635" height="42" fill="#ED9A62"/>
+<rect x="703.500" y="409" width="22.635" height="42" fill="#FBA689"/>
+<rect x="726.125" y="409" width="22.635" height="42" fill="#FDB2AF"/>
+<rect x="748.750" y="409" width="22.635" height="42" fill="#FCBFD3"/>
+<rect x="771.375" y="409" width="22.635" height="42" fill="#FACCFA"/>
+<rect x="838.000" y="409" width="14.885" height="42" fill="#202020"/>
+<rect x="852.875" y="409" width="14.885" height="42" fill="#323232"/>
+<rect x="867.750" y="409" width="14.885" height="42" fill="#414141"/>
+<rect x="882.625" y="409" width="14.885" height="42" fill="#4E4E4E"/>
+<rect x="897.500" y="409" width="14.885" height="42" fill="#5A5A5A"/>
+<rect x="912.375" y="409" width="14.885" height="42" fill="#636363"/>
+<rect x="927.250" y="409" width="14.885" height="42" fill="#6D6D6D"/>
+<rect x="942.125" y="409" width="14.885" height="42" fill="#787878"/>
+<rect x="957.000" y="409" width="14.885" height="42" fill="#848484"/>
+<rect x="971.875" y="409" width="14.885" height="42" fill="#939393"/>
+<rect x="986.750" y="409" width="14.885" height="42" fill="#A0A0A0"/>
+<rect x="1001.625" y="409" width="14.885" height="42" fill="#ADADAD"/>
+<rect x="1016.500" y="409" width="14.885" height="42" fill="#BBBBBB"/>
+<rect x="1031.375" y="409" width="14.885" height="42" fill="#C5C5C5"/>
+<rect x="1046.250" y="409" width="14.885" height="42" fill="#CFCFCF"/>
+<rect x="1061.125" y="409" width="14.885" height="42" fill="#DADADA"/>
+<text x="44" y="500" font-size="16" font-weight="700">scico.vik</text>
+<text x="44" y="521" font-size="11" fill="#565E69">DEVIATION / meaningful center</text>
+<rect x="432.000" y="485" width="22.635" height="42" fill="#001261"/>
+<rect x="454.625" y="485" width="22.635" height="42" fill="#022D72"/>
+<rect x="477.250" y="485" width="22.635" height="42" fill="#034783"/>
+<rect x="499.875" y="485" width="22.635" height="42" fill="#116496"/>
+<rect x="522.500" y="485" width="22.635" height="42" fill="#3C85AC"/>
+<rect x="545.125" y="485" width="22.635" height="42" fill="#71A8C4"/>
+<rect x="567.750" y="485" width="22.635" height="42" fill="#A7C9DA"/>
+<rect x="590.375" y="485" width="22.635" height="42" fill="#DBE5E9"/>
+<rect x="613.000" y="485" width="22.635" height="42" fill="#EED9CD"/>
+<rect x="635.625" y="485" width="22.635" height="42" fill="#E1B8A0"/>
+<rect x="658.250" y="485" width="22.635" height="42" fill="#D39774"/>
+<rect x="680.875" y="485" width="22.635" height="42" fill="#C6794C"/>
+<rect x="703.500" y="485" width="22.635" height="42" fill="#B75A26"/>
+<rect x="726.125" y="485" width="22.635" height="42" fill="#983307"/>
+<rect x="748.750" y="485" width="22.635" height="42" fill="#761706"/>
+<rect x="771.375" y="485" width="22.635" height="42" fill="#590008"/>
+<rect x="838.000" y="485" width="14.885" height="42" fill="#1E1E1E"/>
+<rect x="852.875" y="485" width="14.885" height="42" fill="#313131"/>
+<rect x="867.750" y="485" width="14.885" height="42" fill="#464646"/>
+<rect x="882.625" y="485" width="14.885" height="42" fill="#5F5F5F"/>
+<rect x="897.500" y="485" width="14.885" height="42" fill="#7E7E7E"/>
+<rect x="912.375" y="485" width="14.885" height="42" fill="#A1A1A1"/>
+<rect x="927.250" y="485" width="14.885" height="42" fill="#C4C4C4"/>
+<rect x="942.125" y="485" width="14.885" height="42" fill="#E3E3E3"/>
+<rect x="957.000" y="485" width="14.885" height="42" fill="#DDDDDD"/>
+<rect x="971.875" y="485" width="14.885" height="42" fill="#C0C0C0"/>
+<rect x="986.750" y="485" width="14.885" height="42" fill="#A4A4A4"/>
+<rect x="1001.625" y="485" width="14.885" height="42" fill="#8C8C8C"/>
+<rect x="1016.500" y="485" width="14.885" height="42" fill="#747474"/>
+<rect x="1031.375" y="485" width="14.885" height="42" fill="#555555"/>
+<rect x="1046.250" y="485" width="14.885" height="42" fill="#3C3C3C"/>
+<rect x="1061.125" y="485" width="14.885" height="42" fill="#282828"/>
+<text x="44" y="576" font-size="16" font-weight="700">cmocean.phase</text>
+<text x="44" y="597" font-size="11" fill="#565E69">PHASE / periodic values</text>
+<rect x="432.000" y="561" width="22.635" height="42" fill="#A8780D"/>
+<rect x="454.625" y="561" width="22.635" height="42" fill="#BF672A"/>
+<rect x="477.250" y="561" width="22.635" height="42" fill="#D05347"/>
+<rect x="499.875" y="561" width="22.635" height="42" fill="#DC3C6D"/>
+<rect x="522.500" y="561" width="22.635" height="42" fill="#DE27A0"/>
+<rect x="545.125" y="561" width="22.635" height="42" fill="#D02FD0"/>
+<rect x="567.750" y="561" width="22.635" height="42" fill="#B64BED"/>
+<rect x="590.375" y="561" width="22.635" height="42" fill="#9366F4"/>
+<rect x="613.000" y="561" width="22.635" height="42" fill="#687CE8"/>
+<rect x="635.625" y="561" width="22.635" height="42" fill="#3B8CCB"/>
+<rect x="658.250" y="561" width="22.635" height="42" fill="#1E93A8"/>
+<rect x="680.875" y="561" width="22.635" height="42" fill="#0F9786"/>
+<rect x="703.500" y="561" width="22.635" height="42" fill="#199A5E"/>
+<rect x="726.125" y="561" width="22.635" height="42" fill="#539629"/>
+<rect x="748.750" y="561" width="22.635" height="42" fill="#86880E"/>
+<rect x="771.375" y="561" width="22.635" height="42" fill="#A8780D"/>
+<rect x="838.000" y="561" width="14.885" height="42" fill="#818181"/>
+<rect x="852.875" y="561" width="14.885" height="42" fill="#7E7E7E"/>
+<rect x="867.750" y="561" width="14.885" height="42" fill="#7C7C7C"/>
+<rect x="882.625" y="561" width="14.885" height="42" fill="#7A7A7A"/>
+<rect x="897.500" y="561" width="14.885" height="42" fill="#7A7A7A"/>
+<rect x="912.375" y="561" width="14.885" height="42" fill="#7C7C7C"/>
+<rect x="927.250" y="561" width="14.885" height="42" fill="#7F7F7F"/>
+<rect x="942.125" y="561" width="14.885" height="42" fill="#828282"/>
+<rect x="957.000" y="561" width="14.885" height="42" fill="#848484"/>
+<rect x="971.875" y="561" width="14.885" height="42" fill="#868686"/>
+<rect x="986.750" y="561" width="14.885" height="42" fill="#868686"/>
+<rect x="1001.625" y="561" width="14.885" height="42" fill="#868686"/>
+<rect x="1016.500" y="561" width="14.885" height="42" fill="#878787"/>
+<rect x="1031.375" y="561" width="14.885" height="42" fill="#868686"/>
+<rect x="1046.250" y="561" width="14.885" height="42" fill="#838383"/>
+<rect x="1061.125" y="561" width="14.885" height="42" fill="#818181"/>
+<path d="M44 657H1076" stroke="#D5DAE1"/>
+<text x="44" y="684" font-size="12" fill="#565E69">Use the actual venue template. Add useful labels and non-color cues. No official CCF palette or CVD certification is implied.</text>
+<text x="44" y="706" font-size="11" fill="#565E69">Sources: Paul Tol, viridisLite, Fabio Crameri, cmocean. Full terms and all six families: palette-licenses/NOTICES.md.</text>
+</g></svg>

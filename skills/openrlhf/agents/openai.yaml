@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenRLHF"
+  short_description: "OpenRLHF: scoped research workflow"
+  default_prompt: "Use $openrlhf for my OpenRLHF task, preserving the selected project, evidence, and resource limits."

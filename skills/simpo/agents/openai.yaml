@@ -1,0 +1,4 @@
+interface:
+  display_name: "SimPO"
+  short_description: "SimPO: scoped research workflow"
+  default_prompt: "Use $simpo for my SimPO task, preserving the selected project, evidence, and resource limits."

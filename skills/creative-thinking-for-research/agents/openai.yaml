@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creative Thinking for Research"
+  short_description: "Reframe research problems into testable hypotheses"
+  default_prompt: "Use $creative-thinking-for-research to develop fresh, mechanism-level hypotheses for my research problem."

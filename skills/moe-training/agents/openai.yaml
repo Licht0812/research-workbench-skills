@@ -1,0 +1,4 @@
+interface:
+  display_name: "MoE Training"
+  short_description: "MoE Training: scoped research workflow"
+  default_prompt: "Use $moe-training for my MoE Training task, preserving the selected project, evidence, and resource limits."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "PyTorch Lightning"
+  short_description: "PyTorch Lightning: scoped research workflow"
+  default_prompt: "Use $pytorch-lightning for my PyTorch Lightning task, preserving the selected project, evidence, and resource limits."

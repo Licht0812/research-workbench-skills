@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "venue": {"name": null, "year": null, "track": null, "figure_width_mm": null},
+  "palette_id": "tol.bright",
+  "background": "#FFFFFF",
+  "text": "#222222",
+  "missing_data": "#E2E2E2",
+  "series": [
+    {"label": "Baseline", "color": "#4477AA", "line_style": "dashed", "marker": "circle"},
+    {"label": "Method", "color": "#EE6677", "line_style": "solid", "marker": "square"},
+    {"label": "Ablation", "color": "#228833", "line_style": "dotted", "marker": "triangle"}
+  ],
+  "quantitative_scale": null,
+  "checks": {"rendered_at_final_size": false, "grayscale": false, "cvd_simulation": false},
+  "note": "Illustrative identities only. Replace labels with real methods and check actual geometry. Audit values; do not interpret false or missing checks as passed."
+}

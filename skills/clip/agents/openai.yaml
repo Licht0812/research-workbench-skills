@@ -1,0 +1,4 @@
+interface:
+  display_name: "CLIP"
+  short_description: "CLIP: scoped research workflow"
+  default_prompt: "Use $clip for my CLIP task, preserving the selected project, evidence, and resource limits."

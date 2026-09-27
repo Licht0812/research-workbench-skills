@@ -1,0 +1,4 @@
+interface:
+  display_name: "LangChain"
+  short_description: "LangChain: scoped research workflow"
+  default_prompt: "Use $langchain for my LangChain task, preserving the selected project, evidence, and resource limits."

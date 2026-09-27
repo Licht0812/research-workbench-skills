@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Plotting"
+  short_description: "Academic Plotting: scoped research workflow"
+  default_prompt: "Use $academic-plotting for my Academic Plotting task, preserving the selected project, evidence, and resource limits."

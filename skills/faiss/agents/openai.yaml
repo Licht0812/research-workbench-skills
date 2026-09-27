@@ -1,0 +1,4 @@
+interface:
+  display_name: "FAISS"
+  short_description: "FAISS: scoped research workflow"
+  default_prompt: "Use $faiss for my FAISS task, preserving the selected project, evidence, and resource limits."

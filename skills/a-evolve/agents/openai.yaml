@@ -1,0 +1,4 @@
+interface:
+  display_name: "A-Evolve"
+  short_description: "A-Evolve: scoped research workflow"
+  default_prompt: "Use $a-evolve for my A-Evolve task, preserving the selected project, evidence, and resource limits."
