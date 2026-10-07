@@ -1,0 +1,4 @@
+interface:
+  display_name: "SWABLAB Log"
+  short_description: "管理 SWABLAB 训练 run、原始日志、step 指标与原生 checkpoint"
+  default_prompt: "使用 $swablab-log 记录或更新当前训练 run，维护原始日志、真实指标、原生 checkpoint 和 SwanLab 环境信息。"

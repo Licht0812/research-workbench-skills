@@ -1,14 +1,14 @@
 # Research Workbench Skills
 
-**46 standalone agent skills for research ideation, model training, agents, vision/action policies, scientific writing, and figures.**
+**47 standalone agent skills for research ideation, model training, agents, vision/action policies, scientific writing, and figures.**
 
 [中文](README.zh-CN.md) · [Skill catalogue](docs/catalog.zh-CN.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
 
-This independent project adapts 45 skills from [Orchestra Research](https://github.com/Orchestra-Research/AI-Research-SKILLs) and one scientific-color skill from [easyplot](https://github.com/Rimagination/easyplot). Each `skills/<name>/` directory contains its own instructions and resources. The collection follows the [Agent Skills format](https://agentskills.io/specification) used by [OpenAI skills](https://learn.chatgpt.com/docs/build-skills).
+This independent project adapts 45 skills from [Orchestra Research](https://github.com/Orchestra-Research/AI-Research-SKILLs) and one scientific-color skill from [easyplot](https://github.com/Rimagination/easyplot), and adds the original [SWABLAB Log](skills/swablab-log/SKILL.md) training-run recorder. Each `skills/<name>/` directory contains its own instructions and resources. The collection follows the [Agent Skills format](https://agentskills.io/specification) used by [OpenAI skills](https://learn.chatgpt.com/docs/build-skills).
 
 ## Choose and use a skill
 
-Browse the [46-skill catalogue](docs/catalog.zh-CN.md) by its 16 categories. To install a skill, copy its complete directory from `skills/` into a location supported by your host. For current Codex, documented local discovery locations include `~/.agents/skills` for personal use and `.agents/skills` inside a project. See [OpenAI's local skill guidance](https://learn.chatgpt.com/docs/build-skills).
+Browse the [47-skill catalogue](docs/catalog.zh-CN.md) by its 16 categories. To install a skill, copy its complete directory from `skills/` into a location supported by your host. For current Codex, documented local discovery locations include `~/.agents/skills` for personal use and `.agents/skills` inside a project. See [OpenAI's local skill guidance](https://learn.chatgpt.com/docs/build-skills).
 
 The optional copy tool requires Python 3.9+ and no third-party packages:
 
@@ -28,6 +28,7 @@ In Codex, explicitly invoke a skill with `$skill-name`, or let the host match it
 ```text
 Use $brainstorming-research-ideas to compare directions for my research question.
 Use $torchtitan to inspect my existing pretraining configuration and checkpoint plan.
+Use $swablab-log to record this training run or update its existing logs and metrics.
 Use $ccf-conference-colors to preserve method colors across my paper's figures.
 ```
 

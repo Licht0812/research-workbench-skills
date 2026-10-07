@@ -1,5 +1,20 @@
 # Changelog
 
+## Unreleased
+
+- Add the original SWABLAB Log skill for raw training logs, append-only step metrics, native checkpoint paths, Slurm job associations, and SwanLab static environment information.
+- Register 47 standalone packages; experimental-management category 13 now contains three skills. Update bilingual usage examples, the catalogue, and attribution records.
+- Distinguish original skill provenance from pinned upstream adaptations without inventing upstream paths or blob identities. Preserve the existing upstream checks.
+- Make the recorder example use the actual skill path, allowing direct repository use without a local installation.
+
+### Local validation (2026-10-07)
+
+- All 47 packages passed metadata, local-reference, license, and source-record validation.
+- All 89 optional behavioral case definitions passed schema validation.
+- All 62 program tests passed, including eight provenance checks and four SWABLAB recorder tests.
+- SWABLAB recorder tests exercised same-step merge, append-only resume, native checkpoint linking, scoped Slurm association, and SwanLab v2 static-file extraction with local fixtures.
+- Git whitespace checks passed. Real GPU training, live Slurm jobs, and online SwanLab sessions were not run.
+
 ## 1.0.0 (2026-09-27)
 
 Initial release of Research Workbench Skills.

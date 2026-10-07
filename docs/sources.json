@@ -320,7 +320,7 @@
       "url": "https://github.com/actions/setup-python/releases/tag/v7.0.0"
     }
   ],
-  "validation_scope": "46 independent skill folders. Public-format checks are separate from repository distribution conventions. Optional case-schema checks do not run a model. Selection and Python palette tools are tested; no hosted publication, GPU runtime, or model behavior is implied.",
+  "validation_scope": "47 independent skill folders. Public-format checks are separate from repository distribution conventions. Optional case-schema checks do not run a model. Selection and Python palette tools are tested; no hosted publication, GPU runtime, or model behavior is implied.",
   "additional_upstreams": {
     "easyplot": {
       "repository": "https://github.com/Rimagination/easyplot",
@@ -406,6 +406,36 @@
       ],
       "included_scope": "205 unchanged palette records and Python reader; new conference workflow and audit/gallery tools",
       "palette_provenance": "skills/ccf-conference-colors/assets/provenance.json"
+    }
+  },
+  "original_skills": {
+    "swablab-log": {
+      "created_on": "2026-10-07",
+      "license": "MIT",
+      "copyright_notice": "Copyright (c) 2026 Research Workbench Skills contributors",
+      "description": "Original SWABLAB training-run instructions and stdlib recorder authored from user-provided requirements; no imported upstream skill.",
+      "technical_references": [
+        {
+          "topic": "SwanLab Settings",
+          "revision": "v0.10.1",
+          "url": "https://github.com/SwanHubX/SwanLab/blob/v0.10.1/swanlab/sdk/internal/settings/__init__.py"
+        },
+        {
+          "topic": "SwanLab Run properties",
+          "revision": "v0.10.1",
+          "url": "https://github.com/SwanHubX/SwanLab/blob/v0.10.1/swanlab/sdk/internal/run/__init__.py"
+        },
+        {
+          "topic": "SwanLab static probe schema",
+          "revision": "v0.10.1",
+          "url": "https://github.com/SwanHubX/SwanLab/blob/v0.10.1/swanlab/sdk/internal/probe_python/typings/__init__.py"
+        },
+        {
+          "topic": "SwanLab Hugging Face callback",
+          "revision": "v0.10.1",
+          "url": "https://github.com/SwanHubX/SwanLab/blob/v0.10.1/swanlab/integration/transformers.py"
+        }
+      ]
     }
   }
 }

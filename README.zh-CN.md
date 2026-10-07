@@ -1,14 +1,14 @@
 # Research Workbench Skills
 
-**46 个可独立使用的科研技能，覆盖研究构思、模型训练、Agent、视觉与动作策略、论文写作和科研图表。**
+**47 个可独立使用的科研技能，覆盖研究构思、模型训练、Agent、视觉与动作策略、论文写作和科研图表。**
 
 [English](README.md) · [完整技能目录](docs/catalog.zh-CN.md) · [贡献指南](CONTRIBUTING.md) · [版本记录](CHANGELOG.md)
 
-本项目独立改编了 [Orchestra Research](https://github.com/Orchestra-Research/AI-Research-SKILLs) 的45个技能，以及从 [easyplot](https://github.com/Rimagination/easyplot) 提取的1个科研配色技能。每个 `skills/<name>/` 都有完整的本地说明和所需资源，采用 [Agent Skills 格式](https://agentskills.io/specification)及 [OpenAI 技能使用方式](https://learn.chatgpt.com/docs/build-skills)。
+本项目独立改编了 [Orchestra Research](https://github.com/Orchestra-Research/AI-Research-SKILLs) 的45个技能，以及从 [easyplot](https://github.com/Rimagination/easyplot) 提取的1个科研配色技能，并新增原创 [SWABLAB Log](skills/swablab-log/SKILL.md) 训练 run 记录技能。每个 `skills/<name>/` 都有完整的本地说明和所需资源，采用 [Agent Skills 格式](https://agentskills.io/specification)及 [OpenAI 技能使用方式](https://learn.chatgpt.com/docs/build-skills)。
 
 ## 选择和使用
 
-[目录](docs/catalog.zh-CN.md)按16个类别列出46个技能。安装时，将 `skills/` 下选中的完整技能文件夹复制到宿主支持的位置，可以手动复制，也可以用选择工具。当前 Codex 文档列出的个人目录是 `~/.agents/skills`，项目目录是 `.agents/skills`。依据见 [OpenAI 本地技能说明](https://learn.chatgpt.com/docs/build-skills)。
+[目录](docs/catalog.zh-CN.md)按16个类别列出47个技能。安装时，将 `skills/` 下选中的完整技能文件夹复制到宿主支持的位置，可以手动复制，也可以用选择工具。当前 Codex 文档列出的个人目录是 `~/.agents/skills`，项目目录是 `.agents/skills`。依据见 [OpenAI 本地技能说明](https://learn.chatgpt.com/docs/build-skills)。
 
 选择工具需要 Python 3.9+，无需安装第三方库：
 
@@ -28,6 +28,7 @@ python3 scripts/install.py --all --dest ./selected-skills
 ```text
 使用 $brainstorming-research-ideas 比较我的科研问题有哪些可行方向。
 使用 $torchtitan 检查现有预训练配置与检查点方案。
+使用 $swablab-log 记录这个训练，或更新已有 run 的日志和指标。
 使用 $ccf-conference-colors 为论文中的方法建立跨图一致的配色。
 ```
 

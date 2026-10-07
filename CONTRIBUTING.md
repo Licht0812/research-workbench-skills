@@ -35,7 +35,7 @@ In `agents/openai.yaml`, supply a display name, a short description of 25–64 c
 
 Preserve the requested framework, evidence, and artifact format. Write task-specific decisions and keep each workflow proportional to the request. Link detailed examples and operational checks as local references. Retain pinned scientific software, model revisions, and data contracts when adapting instructions for another assistant model. Evaluate instruction changes using representative tasks and observed outputs; [OpenAI's compact instruction guidance](https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra) provides additional authoring context.
 
-Retain upstream copyright notices and record imported material at a fixed revision in `docs/sources.json` and `catalog.json`. Verify redistribution terms before adding copied material. Palette data retain their source-specific licenses and extraction records.
+Retain upstream copyright notices and record imported material at a fixed revision in `docs/sources.json` and `catalog.json`. Verify redistribution terms before adding copied material. For original skills, use `source_id: original` in the catalogue and record their license, copyright, creation date, and technical references under `original_skills` in `docs/sources.json`; omit imported upstream paths and blob identities. Palette data retain their source-specific licenses and extraction records.
 
 Update `catalog.json` and the [skill catalogue](docs/catalog.zh-CN.md) when names, categories, or responsibilities change. Update both READMEs when usage changes. Keep the release version in the catalogue and changelog.
 

@@ -1,6 +1,6 @@
 # 技能目录
 
-当前版本包含 **46 个独立技能**，按 Orchestra 原有类别组织；easyplot 配色改编归入论文写作与可视化类别。计算规模按项目实际硬件与预算配置。
+当前版本包含 **47 个独立技能**，按 Orchestra 原有类别组织；easyplot 配色改编归入论文写作与可视化类别，原创 SWABLAB Log 归入实验管理。计算规模按项目实际硬件与预算配置。
 
 | 类别 | 技能 / 目录名 | 用途与分工 |
 |---|---|---|
@@ -25,6 +25,7 @@
 | 10 优化 | [FlashAttention](../skills/flash-attention/SKILL.md)<br>`flash-attention` | 注意力内核选择与正确性、性能检查。负责内核优化，Long Context 负责上下文扩展训练和长度泛化。 |
 | 11 模型评估 | [BigCode Evaluation Harness](../skills/bigcode-evaluation-harness/SKILL.md)<br>`bigcode-evaluation-harness` | 代码生成基准与 pass@k 评测。可为 A-Evolve 提供代码生成评估，Agent 的其他能力使用相应任务评测。 |
 | 13 实验管理 | [SwanLab](../skills/swanlab/SKILL.md)<br>`swanlab` | SwanLab 本地或托管实验跟踪。与 W&B 二选一或明确双写；Agent 调用链由观测工具记录。 |
+| 13 实验管理 | [SWABLAB Log](../skills/swablab-log/SKILL.md)<br>`swablab-log` | 按训练 run 维护原始日志、step 指标和原生 checkpoint。SwanLab 提供硬件与环境信息；同一 run 保持同一身份，不生成实验分析、对比或科研笔记。 |
 | 13 实验管理 | [Weights & Biases](../skills/weights-and-biases/SKILL.md)<br>`weights-and-biases` | W&B 实验记录、比较与产物追踪。与 SwanLab 功能替代；与 LangSmith/Phoenix 的调用链观测互补。 |
 | 14 智能体 | [A-Evolve](../skills/a-evolve/SKILL.md)<br>`a-evolve` | Agent 提示、技能、工具的评估驱动改进。围绕已选 Agent 改进，沿用 LangChain、CrewAI 或 AutoGPT 等运行框架。 |
 | 14 智能体 | [AutoGPT](../skills/autogpt/SKILL.md)<br>`autogpt` | AutoGPT 平台工作流与持久任务。与 CrewAI/LangChain 是主编排平台替代项，按现有项目选。 |
@@ -69,7 +70,7 @@
 | `08` | 分布式训练 | 5 |
 | `10` | 优化 | 1 |
 | `11` | 模型评估 | 1 |
-| `13` | 实验管理 | 2 |
+| `13` | 实验管理 | 3 |
 | `14` | 智能体 | 5 |
 | `15` | 检索增强生成 | 2 |
 | `17` | 运行观测 | 2 |
@@ -97,6 +98,7 @@
 | TransformerLens / pyvene | 都能做激活干预 | 按实际模型和干预方式选择一个钩子实现，保留对照和对齐验证 |
 | FlashAttention / Long Context | 都影响长序列效率 | 前者管注意力实现与数值等价，后者管位置机制、训练和长度泛化 |
 | W&B / SwanLab | 实验记录功能替代 | 默认一个主记录源，确需双写时显式设计 run ID 与指标映射 |
+| SWABLAB Log / SwanLab | 训练记录约定与 tracker 后端 | SWABLAB Log 管 run 身份、本地原始日志、CSV 与原生 checkpoint；SwanLab 管指标追踪和设备环境采集，不另建重复 tracker |
 | LangSmith / Phoenix | 调用链与应用评测功能替代 | 默认一个观测后端，防止双重自动 instrumentation |
 | 训练记录 / 调用链观测 | 分别记录训练实验与应用调用 | W&B/SwanLab 与 LangSmith/Phoenix 可组合，通过 run ID 关联 |
 | AutoGPT / CrewAI / LangChain | Agent 主编排能力交叉 | 沿用指定或现有项目的主框架 |

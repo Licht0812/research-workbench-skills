@@ -279,6 +279,15 @@
       "source_id": "orchestra"
     },
     {
+      "name": "swablab-log",
+      "title": "SWABLAB Log",
+      "category": "13 实验管理",
+      "purpose_zh": "按训练 run 维护原始日志、step 指标和原生 checkpoint",
+      "boundary_zh": "以 SwanLab 为硬件与环境来源，沿用同一 run 身份；不生成实验分析、对比或科研笔记。",
+      "uses_gpu": false,
+      "source_id": "original"
+    },
+    {
       "name": "weights-and-biases",
       "title": "Weights & Biases",
       "category": "13 实验管理",

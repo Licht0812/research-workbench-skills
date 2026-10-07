@@ -142,6 +142,54 @@ def validate_skill(folder):
     return errors
 
 
+def validate_provenance(root, rows, sources):
+    """Keep imported provenance pinned; validate original packages against their notices."""
+    root = Path(root)
+    errors = []
+    upstreams = {sources["upstream"].get("id", "orchestra"): sources["upstream"],
+                 **sources.get("additional_upstreams", {})}
+    for source_id, upstream in upstreams.items():
+        if not re.fullmatch(r"[a-f0-9]{40}", upstream["commit"]):
+            errors.append(source_id + ": provenance needs a full upstream commit.")
+    originals = sources.get("original_skills", {})
+    for row in rows:
+        if row.get("source_id") == "original":
+            if any(key.startswith("upstream") or key in {"git_blob_sha", "source_url"}
+                   for key in row):
+                errors.append(row["name"] + ": original skill must not include upstream provenance fields")
+            original = originals.get(row["name"]) if isinstance(originals, dict) else None
+            if not isinstance(original, dict):
+                errors.append(row["name"] + ": missing original provenance")
+                continue
+            folder = root / "skills" / row["name"]
+            try:
+                source = (folder / "SKILL.md").read_text(encoding="utf-8")
+                match = re.match(r"\A---\n(.*?)\n---\n", source, re.S)
+                metadata = yaml.load(match[1], Loader=UniqueKeyLoader) if match else {}
+                license_text = (folder / "LICENSE").read_text(encoding="utf-8")
+            except (OSError, UnicodeError, yaml.YAMLError) as error:
+                errors.append(row["name"] + ": unreadable original package licensing: " + str(error))
+                continue
+            if original.get("license") != "MIT":
+                errors.append(row["name"] + ": original contributions must use the repository MIT license")
+            if not isinstance(metadata, dict) or metadata.get("license") != original.get("license"):
+                errors.append(row["name"] + ": original license differs from SKILL.md")
+            if not license_text.lstrip().startswith("MIT License\n"):
+                errors.append(row["name"] + ": original license differs from LICENSE")
+            copyright_notice = original.get("copyright_notice")
+            if not isinstance(copyright_notice, str) or not copyright_notice.strip() or copyright_notice not in license_text:
+                errors.append(row["name"] + ": missing its original copyright")
+            continue
+        upstream = upstreams.get(row.get("source_id", "orchestra"))
+        entries = {entry["path"]: entry for entry in upstream["files"]} if upstream else {}
+        entry = entries.get(row["upstream_path"])
+        if not entry or row["git_blob_sha"] != entry["git_blob_sha"]:
+            errors.append(row["name"] + ": missing upstream provenance")
+        if upstream and upstream["copyright_notice"] not in (root / "skills" / row["name"] / "LICENSE").read_text(encoding="utf-8"):
+            errors.append(row["name"] + ": missing its upstream copyright")
+    return errors
+
+
 def main():
     errors = []
     actual = {p.name for p in (ROOT / "skills").iterdir() if p.is_dir()}
@@ -156,19 +204,7 @@ def main():
     for path in (ROOT / ".github").rglob("*.yml"):
         yaml.safe_load(path.read_text(encoding="utf-8"))
     sources = json.loads((ROOT / "docs/sources.json").read_text(encoding="utf-8"))
-    upstreams = {sources["upstream"].get("id", "orchestra"): sources["upstream"],
-                 **sources.get("additional_upstreams", {})}
-    for source_id, upstream in upstreams.items():
-        if not re.fullmatch(r"[a-f0-9]{40}", upstream["commit"]):
-            errors.append(source_id + ": provenance needs a full upstream commit.")
-    for row in CATALOG["skills"]:
-        upstream = upstreams.get(row.get("source_id", "orchestra"))
-        entries = {entry["path"]: entry for entry in upstream["files"]} if upstream else {}
-        entry = entries.get(row["upstream_path"])
-        if not entry or row["git_blob_sha"] != entry["git_blob_sha"]:
-            errors.append(row["name"] + ": missing upstream provenance")
-        if upstream and upstream["copyright_notice"] not in (ROOT / "skills" / row["name"] / "LICENSE").read_text(encoding="utf-8"):
-            errors.append(row["name"] + ": missing its upstream copyright")
+    errors.extend(validate_provenance(ROOT, CATALOG["skills"], sources))
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
